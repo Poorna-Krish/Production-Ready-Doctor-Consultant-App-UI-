@@ -13,7 +13,7 @@ class WelcomeScreen extends StatelessWidget {
       body: Stack(
         fit: StackFit.expand,
         children: [
-          SvgPicture.asset("assets/icons/splash_bg.svg"),
+          // SvgPicture.asset("assets/icons/splash_bg.svg"),
           SafeArea(
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: defaultPadding),
@@ -35,7 +35,7 @@ class WelcomeScreen extends StatelessWidget {
                         ),
                       ),
                       style: TextButton.styleFrom(
-                        backgroundColor: Color(0xFF6CD8D1),
+                        backgroundColor: Colors.blue,
                       ),
                       child: Text("Sign Up"),
                     ),
@@ -52,11 +52,11 @@ class WelcomeScreen extends StatelessWidget {
                               builder: (context) => SignInScreen(),
                             )),
                         style: TextButton.styleFrom(
-                          // backgroundColor: Color(0xFF6CD8D1),
+                          backgroundColor: Colors.blue,
                           elevation: 0,
-                          backgroundColor: Colors.transparent,
+                          // backgroundColor: Colors.transparent,
                           shape: RoundedRectangleBorder(
-                            side: BorderSide(color: Color(0xFF6CD8D1)),
+                            side: BorderSide(color: Colors.blue),
                           ),
                         ),
                         child: Text("Sign In"),

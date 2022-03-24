@@ -1,4 +1,3 @@
-
 // Once we use them i will explain it again
 
 class Category {
@@ -8,8 +7,8 @@ class Category {
 }
 
 const List<Category> demo_categories = [
-  Category(icon: "assets/icons/Pediatrician.svg", title: "Pediatrician"),
-  Category(icon: "assets/icons/Neurosurgeon.svg", title: "Neurosurgeon"),
-  Category(icon: "assets/icons/Cardiologist.svg", title: "Cardiologist"),
+  Category(icon: "assets/icons/Pharmacist.svg", title: "Pharmacist"),
+  Category(icon: "assets/icons/Psychotherapist.svg", title: "Psychotherapist"),
+  Category(icon: "assets/icons/Psychotherapist.svg", title: "Psychotherapist"),
   Category(icon: "assets/icons/Psychiatrist.svg", title: "Psychiatrist"),
 ];

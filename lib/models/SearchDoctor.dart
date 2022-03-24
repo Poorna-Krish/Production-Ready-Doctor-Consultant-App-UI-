@@ -5,7 +5,7 @@ class SearchDoctor {
       {this.image, this.name, this.speciality, this.time, this.hospitalName});
 }
 
-List<SearchDoctor> demo_search_doctors = [
+List<SearchDoctor> demoSearchDoctors = [
   SearchDoctor(
     image: "assets/images/search_doc_1.png",
     name: "Dr. Serana Gomez",
